@@ -5,10 +5,11 @@
 }
 
 body {
-    max-width: 1000px;
+    max-width: 1200px;
     width: 100%;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
 }
 
 /* header start */
@@ -26,6 +27,7 @@ h1 {
     font-size: 40px;
     color: #E53070;
 }
+
 /* main start */
 .clearfix::after {
     content: " ";
@@ -34,13 +36,44 @@ h1 {
 }
 
 .container {
-    border: 4px solid red;
     height: 700px;
+    padding-top: 20px;
 }
 
 .cards {
-    border: 4px solid green;
-    height: 200px;
-    width: 300px;
     float: left;
+    width: 33.3%;
+    padding: 16px;
+}
+
+.cards-col-body {
+    background-color: black;
+}
+
+img {
+    float: left;
+    height: 110px;
+}
+
+.section-info {
+    line-height: 30px;
+    float: left;
+    padding: 10px;
+}
+
+h2 {
+    color: white;
+    font-size: 17px;
+}
+
+.job {
+    color: white;
+    font-size: 14px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #4eb4e4;
+    font-size: 14px;
 }
